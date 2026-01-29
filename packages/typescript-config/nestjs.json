@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "composite": false,
+    "declaration": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "declarationMap": false,
+    "incremental": true,
+    "target": "ES2023",
+  }
+}
